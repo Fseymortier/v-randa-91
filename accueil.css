@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*------------------------------- header --------------------------*/
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header > img {
+  margin: 0 1em;
+}
+nav > a {
+  text-decoration: none;
+  margin: 0 1em;
+}
+/*------------------------ formulaire estimation ------------------------*/
+.container_estimation {
+  width: 100%;
+  padding: 5em;
+  background-image: url(./photo-bandeau.jpg);
+}
+.item_formulaire {
+  color: white;
+  background-color: rgb(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 2em;
+}
+.title_formulaire {
+  margin-bottom: 1em;
+}
+.formulaire_estimer {
+  display: flex;
+  justify-content: center;
+}
+.items_formulaire_estimer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 1em;
+}
+.items_formulaire_estimer > input,
+.items_formulaire_estimer > select {
+  padding: 0.5em;
+}
+.button_form_estimer {
+  padding: 1em;
+  color: white;
+  background-color: rgb(255, 115, 0);
+  border-radius: 0.5em;
+  border: none;
+  margin-top: 1em;
+}
+/*------------------------- contenu de la page --------------------------*/
+.container_content {
+  width: 100%;
+  padding: 2em 5em;
+  display: flex;
+  justify-content: center;
+}
+/*------------- presentation -------------*/
+.item_presentation {
+  display: flex;
+  margin: 0 2em 2em 0;
+}
+.content_presentation {
+  margin: 0 0 0 2em;
+  width: 60%;
+}
+/*------------- presation ----------------*/
+.container_prestations{
+margin: 0 2em 2em 0;
+display: flex;
+justify-content: space-between;
+}
+.items_prestations{
+    width: 20%;
+}
+.img_prestation{
+    width: 100%;
+}
+/*--------------- devis ------------------*/
+.container_devis{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+.lien_devis{
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    background-color: rgb(255, 115, 0);
+}
+.container_devis>ul{
+    width: 90%;
+}
+.container_devis>h3{
+    margin: 1em 0;
+}
